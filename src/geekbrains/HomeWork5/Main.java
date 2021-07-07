@@ -18,6 +18,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int year = scanner.nextInt();
 
+
         System.out.println("Данные сотрудники старше " + year + " лет: ");
         for (int i = 0; i < persArray.length; i++){
             if (persArray[i].age > year){
